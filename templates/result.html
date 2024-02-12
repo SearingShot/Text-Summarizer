@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Text-Summarizer</title>
+</head>
+<body>
+    <h1 class="text">Text Summarizer</h1><br><br>
+    <div class="main-container">
+        <div class="Summarizer-block">
+            <h2 class="text2"><strong>Original text</strong></h2>
+            <p class="text-box">{{text}}</p><br><br>
+            <h2 class="text2"><strong>Summary</strong></h2>
+            <p class="text-box">{{summary}}</p>
+        </div>
+    </div>
+</body>
+</html>

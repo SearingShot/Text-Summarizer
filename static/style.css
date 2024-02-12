@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 1%;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box ;
+    background-image: url('itachi.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+html{
+    scroll-behavior: smooth;
+    align-items: center;
+    &::-webkit-scrollbar {
+        background-color: transparent;
+        width: 0.4rem;
+        &-thumb {
+          background-color: rgba(219, 219, 219, 0.557);
+        }
+    }
+}
+.main-container{
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: content;
+    font-weight: 700;
+    position: relative;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+}
+.Summarizer-block{
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    margin-top: -3%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    flex-basis: content;
+    flex-flow: column;
+    .text-box{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        flex-direction: column;
+        background: radial-gradient(transparent, black);
+        width: fit-content;
+        border-radius: 20px;
+        font-family: cursive;
+        letter-spacing: 1px;
+        font-size: 17px;
+        font-weight: 500;
+        border: none;
+        color: #1159f3;
+        position: relative;
+        &::placeholder{
+            color: #f31167;
+            letter-spacing: 1px;
+            font-size: 17px;
+            font-weight: 520;
+        }
+        &::-webkit-scrollbar {
+            background-color: transparent;
+            width: 0.4rem;
+            &-thumb {
+              background-color: rgba(219, 219, 219, 0.557);
+            }
+        }              
+    }
+    .btn{
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        background: radial-gradient(transparent,black);
+        height: 35%;
+        font-size: medium;
+        border: none;
+        font-family: cursive;
+        border-radius: 15px;
+        letter-spacing: 1px;
+        margin-left: 25%;
+        color: darkturquoise;
+        position: relative;
+    }
+    .btn:hover{
+        background: radial-gradient(transparent,rgb(238, 112, 71));
+    }
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: content;
+    color: #8cecf3;
+    font-family: cursive;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: xx-large;
+    justify-self: center;
+    align-self: center;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: content;
+    color: #8cecf3;
+    font-family: cursive;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: large;
+    justify-self: center;
+    align-self: center;
+}
